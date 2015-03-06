@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vasya.autobloknot" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/image_main"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add_AZS" >
+        </activity>
+        <activity android:name=".Show_AZS" >
+        </activity>
+        <activity android:name=".AboutActivity" >
+        </activity>
+        <activity android:name=".Add_STO" >
+        </activity>
+        <activity android:name=".Show_STO" >
+        </activity>
+        <activity
+            android:name=".Update_AZS"
+            android:label="@string/title_activity_update__azs" >
+        </activity>
+        <activity
+            android:name=".Update_STO"
+            android:label="@string/title_activity_update__sto" >
+        </activity>
+        <activity
+            android:name=".Oil_calc"
+            android:label="@string/title_activity_oil_calc" >
+        </activity>
+    </application>
+
+</manifest>

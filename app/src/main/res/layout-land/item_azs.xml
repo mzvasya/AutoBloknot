@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата"
+        android:id="@+id/tv_azs_data"
+        android:textSize="18dp"
+        android:layout_weight="1.7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сума"
+        android:id="@+id/tv_azs_suma"
+        android:textSize="18dp"
+        android:layout_weight="2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цена"
+        android:id="@+id/tv_azs_price"
+        android:textSize="18dp"
+        android:layout_weight="2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Обєм"
+        android:id="@+id/tv_azs_count"
+        android:textSize="18dp"
+        android:layout_weight="2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пробег"
+        android:id="@+id/tv_azs_probeg"
+        android:textSize="18dp"
+        android:layout_weight="1.95" />
+</LinearLayout>
